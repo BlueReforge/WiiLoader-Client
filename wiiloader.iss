@@ -2,8 +2,8 @@
 
 #define MyAppName "WiiLoader Client"
 #define MyAppVersion "0.1.0"
-#define MyAppPublisher "Driplyer"
-#define MyAppURL "https://github.com/yourusername/wiiloader"
+#define MyAppPublisher "BlueReforge Studios"
+#define MyAppURL "https://github.com/BlueReforge/WiiLoader-Client"
 #define MyAppExeName "wiiloader-client.exe"
 
 [Setup]
@@ -18,7 +18,7 @@ DefaultGroupName={#MyAppName}
 AllowNoIcons=yes
 OutputDir=installer
 OutputBaseFilename=WiiLoader-Client
-; SetupIconFile=icon.ico          ; ← uncomment and put a real .ico path if you have one
+; SetupIconFile=icon.ico
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
