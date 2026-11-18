@@ -1,0 +1,9 @@
+[package]
+name = "wiiloader-client"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eframe = "0.37"       # Immediate-mode graphical UI framework
+rfd = "0.18"          # Native file open dialogs
+flate2 = "1.0"
